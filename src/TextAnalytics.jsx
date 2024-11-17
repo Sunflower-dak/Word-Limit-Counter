@@ -1,3 +1,3 @@
 export default function TextAnalytics() {
-  return <section>TextAnalytics</section>;
+  return <section className="stats">TextAnalytics</section>;
 }

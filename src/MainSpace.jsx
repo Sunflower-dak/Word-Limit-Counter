@@ -3,7 +3,7 @@ import TextArea from "./TextArea";
 
 export default function MainSpace() {
   return (
-    <main>
+    <main className="container">
       <TextArea />
       <TextAnalytics />
     </main>
