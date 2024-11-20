@@ -1,3 +1,3 @@
-export default function Warning() {
-  return <p className="warning">No curse word allowed!</p>;
+export default function Warning({ alertWarning }) {
+  return <p className="warning">{alertWarning}</p>;
 }
